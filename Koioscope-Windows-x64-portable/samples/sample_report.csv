@@ -1,0 +1,2 @@
+hash,comment,av_vendor_matches,filenames,pe_description,pe_original_filename,pe_copyright,signer,vt_detection_ratio,first_seen,last_seen,indicator_tags,source_links
+44d88612fea8a8f36de82e1278abb02f,EICAR test file,Microsoft:malicious,eicar.com,,,,,1/50,,,Harmless,https://www.virustotal.com/gui/file/44d88612fea8a8f36de82e1278abb02f
