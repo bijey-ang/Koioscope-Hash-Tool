@@ -1,0 +1,59 @@
+virustotal:
+  enabled: true
+  api_key: "5529b55c3c51ca4456378aedc7a342b76e02fb348ac404ccfb71e8b6cdd85f21"
+  rate_limit:
+    requests_per_minute: 4
+
+urlhaus:
+  enabled: true
+  rate_limit:
+    requests_per_minute: 10
+
+malwarebazaar:
+  enabled: true
+  api_key: "8adf27ed432aa07c360e410b41fb943305bd9d2968aa8df9"
+  rate_limit:
+    requests_per_minute: 10
+
+malshare:
+  enabled: true
+  api_key: "23354fec5b58c46f8943dc88403595fb53568f77e877dd58526a470a743504ea"
+  rate_limit:
+    requests_per_minute: 10
+
+hybrid_analysis:
+  enabled: true
+  api_key: "w09aojr5933e9590snix99nhe111f463v976ypfb49acc1bfzhehgb4mb497583a"
+  rate_limit:
+    requests_per_minute: 5
+
+hashlookup:
+  enabled: true
+  rate_limit:
+    requests_per_minute: 20
+
+otx:
+  enabled: true
+  api_key: "d6b9daa988528f221c2391b6099033acc733edb149081842823f2e9859249c70"
+  rate_limit:
+    requests_per_minute: 10
+
+threatfox:
+  enabled: true
+  rate_limit:
+    requests_per_minute: 10
+
+cache:
+  dir: cache
+  ttl_minutes: 1440
+
+vendor_allowlist:
+- Microsoft
+- Kaspersky
+- BitDefender
+- Avast
+- CrowdStrike Falcon
+- ESET-NOD32
+- Symantec
+- TrendMicro-HouseCall
+- Arctic Wolf

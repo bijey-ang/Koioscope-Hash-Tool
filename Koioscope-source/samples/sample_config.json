@@ -1,0 +1,43 @@
+{
+  "virustotal": {
+    "enabled": true,
+    "api_key": "PUT_YOUR_VT_API_KEY_HERE",
+    "rate_limit": {
+      "requests_per_minute": 4
+    }
+  },
+  "urlhaus": {
+    "enabled": true,
+    "rate_limit": {
+      "requests_per_minute": 10
+    }
+  },
+  "malwarebazaar": {
+    "enabled": true,
+    "rate_limit": {
+      "requests_per_minute": 10
+    }
+  },
+  "otx": {
+    "enabled": true,
+    "api_key": "",
+    "rate_limit": {
+      "requests_per_minute": 10
+    }
+  },
+  "threatfox": {
+    "enabled": true,
+    "rate_limit": {
+      "requests_per_minute": 10
+    }
+  },
+  "cache": {
+    "dir": "cache",
+    "ttl_minutes": 1440
+  },
+  "vendor_allowlist": [
+    "Microsoft",
+    "Kaspersky",
+    "BitDefender"
+  ]
+}
