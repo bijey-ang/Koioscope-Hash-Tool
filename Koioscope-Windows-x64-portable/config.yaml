@@ -34,7 +34,7 @@ hashlookup:
 
 otx:
   enabled: true
-  api_key: ""
+  api_key: "PUT YOUR API KEY HERE"
   rate_limit:
     requests_per_minute: 10
 
